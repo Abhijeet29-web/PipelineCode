@@ -1,0 +1,25 @@
+pipeline {
+    agent any 
+    
+        stages {
+            
+            stage ("Git Code Checkout....."){
+                steps {
+                    echo "Checking 1 ....."
+                }
+            }
+                
+            stage ("Another Code Checkout....."){
+                steps {
+                    echo "Checking 2 ....."
+                }
+            }   
+            stage ("Another2 Code Checkout....."){
+                steps {
+                    echo "Checking 3 ....."
+                }    
+            }
+           
+     }   
+ }
+    
